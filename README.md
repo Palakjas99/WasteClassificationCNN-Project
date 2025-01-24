@@ -1,13 +1,9 @@
 # CNN Model for Plastic waste Classification
-# Overview
-This project focuses on building a Convolutional Neural Network (CNN) model to classify images of plastic waste into various categories. The primary goal is to enhance waste management systems by improving the segregation and recycling process using deep learning technologies.
 
-Sure! Here’s a brief overview of a CNN (Convolutional Neural Network) model applied to plastic waste management, which you can use for your GitHub project. I’ll also include some ideas for how you might organize your repository and what to include in the README.
-
-Project Overview: Plastic Waste Management using CNN
+#Project Overview: Plastic Waste Management using CNN
 This project focuses on using a Convolutional Neural Network (CNN) to identify and categorize plastic waste from images. The goal is to automate the process of classifying various types of plastic waste, enabling more efficient recycling processes and better waste management practices.
 
-#Key Components:
+Key Components:
 Image Dataset:
 A dataset of plastic waste images, labeled with different plastic types (e.g., PET, PVC, HDPE) or waste categories (e.g., bottles, wrappers, packaging). This dataset can either be custom-made or sourced from available open datasets.
 
