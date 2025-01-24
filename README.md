@@ -1,4 +1,5 @@
 # CNN Model for Plastic waste Classification
+#project Overview
 
 #Project Overview: Plastic Waste Management using CNN
 This project focuses on using a Convolutional Neural Network (CNN) to identify and categorize plastic waste from images. The goal is to automate the process of classifying various types of plastic waste, enabling more efficient recycling processes and better waste management practices.
