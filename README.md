@@ -11,17 +11,17 @@ https://www.kaggle.com/datasets/techsash/waste-classification-data/data
 # Week 2
 In Week 2, we have enhanced our deep learning model for waste classification by making significant updates to the Week 1 code. Below are the key improvements and additions:
 
-# Data Visualization Enhancement
+1. Data Visualization Enhancement
 Introduced a grid visualization of random images from the dataset using plt.subplot().
 The images are randomly selected and labeled, helping us understand dataset variations.
- # CNN Model Architecture Expansion
+2. CNN Model Architecture Expansion
 Added a third convolutional layer (128 filters) to capture more complex image features.
 Increased model depth to improve accuracy.
 Implemented Dropout layers (0.5 rate) in the dense layers to prevent overfitting.
-# Training and Testing Generators
+3. Training and Testing Generators
 Used ImageDataGenerator.flow_from_directory() to dynamically load images from the dataset.
 Ensured RGB conversion and maintained 224x224 resolution.
 Configured class_mode='categorical' for multi-class classification.
-#  Model Training & Validation
+4. Model Training & Validation
 Trained the model for 10 epochs using the model.fit() function.
 Added validation_data=test_generator to track validation performance.
