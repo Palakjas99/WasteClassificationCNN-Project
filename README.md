@@ -27,6 +27,7 @@ Implemented Dropout layers (0.5 rate) in the dense layers to prevent overfitting
 Used ImageDataGenerator.flow_from_directory() to dynamically load images from the dataset.
 Ensured RGB conversion and maintained 224x224 resolution.
 Configured class_mode='categorical' for multi-class classification.
+
 4. Model Training & Validation:
 
 Trained the model for 10 epochs using the model.fit() function.
