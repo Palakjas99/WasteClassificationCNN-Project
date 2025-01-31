@@ -15,6 +15,7 @@ In Week 2, we have enhanced our deep learning model for waste classification by 
    
 Introduced a grid visualization of random images from the dataset using plt.subplot().
 The images are randomly selected and labeled, helping us understand dataset variations.
+
 2. CNN Model Architecture Expansion:
 
 Added a third convolutional layer (128 filters) to capture more complex image features.
